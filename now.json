@@ -1,3 +1,10 @@
 {
-  "name": "Nodejs-MongoDb-TodoMVC"
+  "name": "Nodejs-MongoDb-TodoMVC",
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*.js",
+      "use": "@now/node"
+    }
+  ]
 }
